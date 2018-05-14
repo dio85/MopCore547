@@ -479,16 +479,16 @@ enum Opcodes
     CMSG_RECLAIM_CORPSE                               = 0x065C, // 5.4.7 18019
     CMSG_REDIRECTION_AUTH_PROOF                       = 0x1A5B, // 5.4.7 18019 Not implemented - CHECK!
     CMSG_REFORGE_ITEM                                 = 0x1632, // 5.4.7 18019
-    CMSG_REORDER_CHARACTERS                           = 0x1892, // 5.4.7 18019
+    CMSG_REORDER_CHARACTERS                           = 0x08A7, // 5.4.8 18414
     CMSG_REPAIR_ITEM                                  = 0x0577, // 5.4.7 18019
     CMSG_REPOP_REQUEST                                = 0x04FC, // 5.4.7 18019
     CMSG_REPORT_PVP_AFK                               = 0x075D, // 5.4.7 18019
-    CMSG_REQUEST_ACCOUNT_DATA                         = 0x1410, // 5.4.7 18019
+    CMSG_REQUEST_ACCOUNT_DATA                         = 0x1D8A, // 5.4.8 18414
     CMSG_REQUEST_BATTLEPET_JOURNAL                    = 0x12C1, // 5.4.7 18019
     CMSG_REQUEST_CATEGORY_COOLDOWNS                   = 0x177B, // 5.4.7 18019
     CMSG_REQUEST_CEMETERY_LIST                        = 0x14A9, // 5.4.7 18019
     CMSG_REQUEST_FORCED_REACTIONS                     = 0x00EB, // 5.4.7 18019
-    CMSG_REQUEST_HOTFIX                               = 0x16C2, // 5.4.7 18019
+    CMSG_REQUEST_HOTFIX                               = 0x158D, // 5.4.8 18414
     CMSG_REQUEST_INSPECT_RATED_BG_STATS               = 0x1CB3, // 5.4.7 18019
     CMSG_REQUEST_PARTY_MEMBER_STATS                   = 0x1333, // 5.4.7 18019
     CMSG_REQUEST_PET_INFO                             = 0x0000,
@@ -587,7 +587,7 @@ enum Opcodes
     CMSG_UNLEARN_SPECIALIZATION                       = 0x0000,
     CMSG_UNREGISTER_ALL_ADDON_PREFIXES                = 0x072B, // 5.4.7 18019
     CMSG_UNSET_FACTION_ATWAR                          = 0x0077, // 5.4.7 18019
-    CMSG_UPDATE_ACCOUNT_DATA                          = 0x18B2, // 5.4.7 18019
+    CMSG_UPDATE_ACCOUNT_DATA                          = 0x0068, // 5.4.8 18414
     CMSG_UPDATE_MISSILE_TRAJECTORY                    = 0x0000,
     CMSG_UPDATE_PROJECTILE_POSITION                   = 0x0000,
     CMSG_UPGRADE_ITEM                                 = 0x11E9, // 5.4.7 18019
@@ -604,7 +604,7 @@ enum Opcodes
     CMSG_WARGAME_START                                = 0x0000,
     CMSG_WHO                                          = 0x13C1, // 5.4.7 18019
     CMSG_WHOIS                                        = 0x0000,
-    CMSG_WORLD_STATE_UI_TIMER_UPDATE                  = 0x1CA3, // 5.4.7 18019
+    CMSG_WORLD_STATE_UI_TIMER_UPDATE                  = 0x15AB, // 5.4.8 18414
     CMSG_WORLD_TELEPORT                               = 0x0000,
     CMSG_WRAP_ITEM                                    = 0x1623, // 5.4.7 18019
     CMSG_ZONEUPDATE                                   = 0x0000,
@@ -672,7 +672,7 @@ enum Opcodes
     SMSG_AURA_POINTS_DEPLETED                         = 0x0000, // 0x0151  // 5.4.7 18019 - CHECK!
     SMSG_AURA_UPDATE                                  = 0x1B8D, // 5.4.7 18019
     SMSG_AUTH_CHALLENGE                               = 0x0949, // 5.4.8 18414
-    SMSG_AUTH_RESPONSE                                = 0x0aba, // 5.4.8 18414
+    SMSG_AUTH_RESPONSE                                = 0x0ABA, // 5.4.8 18414
     SMSG_AVAILABLE_VOICE_CHANNEL                      = 0x0000,
     SMSG_AVERAGE_ITEM_LEVEL_INFORM                    = 0x0000,
     SMSG_BARBER_SHOP_RESULT                           = 0x01EB, // 5.4.7 18019
