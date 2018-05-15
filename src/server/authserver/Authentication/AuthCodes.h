@@ -65,7 +65,7 @@ enum LoginResult
     LOGIN_LOCKED_ENFORCED                        = 0x10
 };
 
-#define MoPCore_ACCEPTED_CLIENT_BUILD        {18414, 18273, 17898, 17399, 17371, 16135, 12340, 0}  // accept one Mists of Pandaria, one Cataclysm and one Wrath of the Lich King build.
+#define MoPCore_ACCEPTED_CLIENT_BUILD        {18414, 17898, 17399, 17371, 16135, 12340, 0}  // accept one Mists of Pandaria, one Cataclysm and one Wrath of the Lich King build.
 
 namespace AuthHelper
 {

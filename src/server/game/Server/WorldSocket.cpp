@@ -325,7 +325,7 @@ int WorldSocket::open (void *a)
     // not an opcode. this packet sends raw string WORLD OF WARCRAFT CONNECTION - SERVER TO CLIENT"
     // because of our implementation, bytes "WO" become the opcode
     WorldPacket packet(MSG_VERIFY_CONNECTIVITY);
-    packet << std::string("RLD OF WARCRAFT CONNECTION - SERVER TO CLIENT");
+    packet << std::string("WORLD OF WARCRAFT CONNECTION - SERVER TO CLIENT");
 
     if (SendPacket(&packet) == -1)
         return -1;

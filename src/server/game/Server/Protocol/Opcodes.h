@@ -356,10 +356,10 @@ enum Opcodes
     CMSG_LF_GUILD_SET_GUILD_POST                      = 0x13C2, // 5.4.7 18019
     CMSG_LIST_INVENTORY                               = 0x10DD, // 5.4.7 18019
     CMSG_LIST_STABLE_PETS                             = 0x045D, // 5.4.7 18019
-    CMSG_LOAD_SCREEN                                  = 0x1691, // 5.4.7 18019
-    CMSG_LOGOUT_CANCEL                                = 0x11D4, // 5.4.7 18019
-    CMSG_LOGOUT_REQUEST                               = 0x0476, // 5.4.7 18019
-    CMSG_LOG_DISCONNECT                               = 0x1A13, // 5.4.7 18019
+    CMSG_LOAD_SCREEN                                  = 0x1DBD, // 5.4.8 18414
+    CMSG_LOGOUT_CANCEL                                = 0x06C1, // 5.4.8 18414
+    CMSG_LOGOUT_REQUEST                               = 0x1349, // 5.4.8 18414
+    CMSG_LOG_DISCONNECT                               = 0x10B3, // 5.4.8 18414
     CMSG_LOOT                                         = 0x1E52, // 5.4.7 18019
     CMSG_LOOT_CURRENCY                                = 0x0000,
     CMSG_LOOT_MASTER_GIVE                             = 0x14A1, // 5.4.7 18019
@@ -1352,9 +1352,9 @@ enum Opcodes
     SMSG_VOID_STORAGE_FAILED                          = 0x1569, // 5.4.7 18019
     SMSG_VOID_STORAGE_TRANSFER_CHANGES                = 0x05A8, // 5.4.7 18019
     SMSG_VOID_TRANSFER_RESULT                         = 0x00E3, // 5.4.7 18019
-    SMSG_WAIT_QUEUE_FINISH                            = 0x0000,
-    SMSG_WAIT_QUEUE_UPDATE                            = 0x0000,
-    SMSG_WARDEN_DATA                                  = 0x14EB, // 5.4.7 18019
+    SMSG_WAIT_QUEUE_FINISH                            = 0x060E,	// 5.4.8 18414
+    SMSG_WAIT_QUEUE_UPDATE                            = 0x0C2F,	// 5.4.8 18414
+    SMSG_WARDEN_DATA                                  = 0x0C0A, // 5.4.8 18414
     SMSG_WARGAME_CHECK_ENTRY                          = 0x0000,
     SMSG_WARGAME_REQUEST_SENT                         = 0x0CAE,	// 5.4.8 18414
     SMSG_WEATHER                                      = 0x0F41, // 5.4.7 18019
