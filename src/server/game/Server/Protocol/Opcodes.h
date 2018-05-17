@@ -112,7 +112,7 @@ enum Opcodes
 	CMSG_BATTLE_PAY_CONFIRM_PURCHASE_RESPONSE		  = 0x0812,	// 5.4.8 18414
 	CMSG_BATTLE_PAY_DISTRIBUTION_ASSIGN_TO_TARGET	  = 0x08E3,	// 5.4.8 18414
 	CMSG_BATTLE_PAY_GET_PRODUCT_LIST				  = 0x0DE0,	// 5.4.8 18414
-	CMSG_BATTLE_PAY_GET_PURCHASE_LIST				  = 0x18B2,	// 5.4.8 18414
+	CMSG_BATTLE_PAY_GET_PURCHASE_LIST				  = 0x0000,	// 5.4.8 18414
 	CMSG_BATTLE_PAY_START_PURCHASE					  = 0x1886,	// 5.4.8 18414
 	CMSG_BATTLE_PAY_START_VAS_PURCHASE				  = 0x0000,
 	CMSG_BATTLE_PET_DELETE_PET_CHEAT				  = 0x08E1,	// 5.4.8 18414
@@ -948,8 +948,8 @@ enum Opcodes
     SMSG_INSTANCE_RESET_FAILED                        = 0x0000,
     SMSG_INSTANCE_SAVE_CREATED                        = 0x04A3, // 5.4.7 18019
     SMSG_INVALIDATE_DANCE                             = 0x0000,
-    SMSG_INVALIDATE_PLAYER                            = 0x0000,
-    SMSG_INVALID_PROMOTION_CODE                       = 0x0000,
+    SMSG_INVALIDATE_PLAYER                            = 0x102E,	// 5.4.8 18414
+    SMSG_INVALID_PROMOTION_CODE                       = 0x1A0E,	// 5.4.8 18414
     SMSG_INVENTORY_CHANGE_FAILURE                     = 0x0F49, // 5.4.7 18019
     SMSG_ITEM_ADD_PASSIVE                             = 0x0000,
     SMSG_ITEM_COOLDOWN                                = 0x0000,

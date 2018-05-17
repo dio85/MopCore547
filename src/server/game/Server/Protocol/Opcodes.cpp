@@ -125,7 +125,7 @@ void InitOpcodes()
     DEFINE_OPCODE_HANDLER(CMSG_AUCTION_PLACE_BID,                       STATUS_LOGGEDIN,  PROCESS_THREADUNSAFE, &WorldSession::HandleAuctionPlaceBid           );
     DEFINE_OPCODE_HANDLER(CMSG_AUCTION_REMOVE_ITEM,                     STATUS_LOGGEDIN,  PROCESS_THREADUNSAFE, &WorldSession::HandleAuctionRemoveItem         );
     DEFINE_OPCODE_HANDLER(CMSG_AUCTION_SELL_ITEM,                       STATUS_LOGGEDIN,  PROCESS_THREADUNSAFE, &WorldSession::HandleAuctionSellItem           );
-    DEFINE_OPCODE_HANDLER(CMSG_AUTH_SESSION,                            STATUS_AUTHED,     PROCESS_THREADUNSAFE, &WorldSession::Handle_EarlyProccess            );
+    DEFINE_OPCODE_HANDLER(CMSG_AUTH_SESSION,                            STATUS_AUTHED,     PROCESS_THREADUNSAFE, &WorldSession::Handle_EarlyProccess	       );
 	DEFINE_OPCODE_HANDLER(CMSG_AUTH_CONTINUED_SESSION,					STATUS_UNHANDLED, PROCESS_THREADUNSAFE, &WorldSession::Handle_NULL					   );
 	DEFINE_OPCODE_HANDLER(CMSG_AUTH_SRP6_BEGIN,							STATUS_UNHANDLED, PROCESS_THREADUNSAFE, &WorldSession::Handle_NULL					   );
 	DEFINE_OPCODE_HANDLER(CMSG_AUTH_SRP6_PROOF,							STATUS_UNHANDLED, PROCESS_THREADUNSAFE, &WorldSession::Handle_NULL					   );
